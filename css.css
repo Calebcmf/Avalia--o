@@ -1,0 +1,233 @@
+HTML, body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.fundo
+{
+    height: 80%;
+    width: 90%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.esquerda
+{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.direita
+{
+    padding-top: 40px;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.d7
+{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.a2
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.d8
+{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.d3
+{
+    width: 95%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.conjunto
+{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.d2
+{
+    width: 7%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.d4
+{
+    width: 6%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.setas
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.d5
+{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.seta
+{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.d9
+{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.Space
+{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.capslock
+{
+    width: 12%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.a1
+{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.tecla0
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+.tecladif
+{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.ativado
+{
+    background-color: aqua;
+}
+.desativado
+{
+    background-color: azure;
+}
