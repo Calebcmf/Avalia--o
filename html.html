@@ -10,7 +10,7 @@
 <body>
     <div class="fundo">
         <div class="esquerda">
-            <div class="d3">
+            <div class="F1">
                 <div class="d2" id="112">F1</div>
                 <div class="d2" id="113">F2</div>
                 <div class="d2" id="114">F3</div>
@@ -38,10 +38,10 @@
                 <div class="d4" id="48">0</div>
                 <div class="d4" id="189">-</div>
                 <div class="d4" id="187">+</div>
-                <div class="d4" id="8"> <- </div>
+                <div class="tab" id="8"> <img src="seta.png" width="30%"> </div>
             </div>
             <div class="d3">
-                <div class="d4" id="9"> -> </div>
+                <div class="tab" id="9"> <img src="tab.png" width="30%"> </div>
                 <div class="d4" id="81">Q</div>
                 <div class="d4" id="87">W</div>
                 <div class="d4" id="69">E</div>
@@ -54,7 +54,8 @@
                 <div class="d4" id="80">P</div>
                 <div class="d4" id="219">´</div>
                 <div class="d4" id="221">[</div>
-                <div class="Enter">Enter</div>
+                <div class="d4"></div>
+                <div class="Enter" id="13">Enter</div>
             </div>
             <div class="d3">
                 <div class="capslock" id="20"> CapsLock </div>
@@ -70,6 +71,7 @@
                 <div class="d4" id="186">Ç</div>
                 <div class="d4" id="222">~</div>
                 <div class="d4" id="220">]</div>
+                <div class="d4" ></div>
             </div>
             <div class="d3">
                 <div class="d4" id="16"> Shift </div>
@@ -84,76 +86,100 @@
                 <div class="d4" id="188">.</div>
                 <div class="d4" id="190">;</div>
                 <div class="d4" id="191">/</div>
-                <div class="d4" id="193">Shift</div>
+                <div class="A3" id="193">Shift</div>
             </div>
             <div class="d3">
                 <div class="d4" id="17"> Ctrl </div>
-                <div class="d4" id="91">Window</div>
+                <div class="d4" id="91"><img src="windows_logo.png" width="50%"></div>
                 <div class="d4" id="18">Alt</div>
                 <div class="Space" id="32">Space</div>
                 <div class="d4" id="17 + 18">AltGr</div>
                 <div class="d4" id="93">M</div>
-                <div class="d4" id="17">Ctrl</div>
+                <div class="A3" id="17">Ctrl</div>
             </div>
         </div>
         <div class="direita">
             <div class="d7">
                 <div class="a2">
                     <div class="conjunto">
-                        <div class="tecladif">Insert</div>
-                        <div class="tecladif">Home</div>
-                        <div class="tecladif">PgUp</div>
+                        <div class="tecladif" id="45">Insert</div>
+                        <div class="tecladif" id="36">Home</div>
+                        <div class="tecladif" id="33">PgUp</div>
                     </div>
                     <div class="conjunto">
-                        <div class="tecladif">Delete</div>
-                        <div class="tecladif">End</div>
-                        <div class="tecladif">PgDn</div>
+                        <div class="tecladif" id="46">Delete</div>
+                        <div class="tecladif" id="35">End</div>
+                        <div class="tecladif" id="34">PgDn</div>
                     </div>
                 </div>
                 <div class="setas">
                     <div class="d9">
-                        <div class="seta">^</div>
+                        <div class="seta" id="38">^</div>
                     </div>
                     <div class="d9">
-                        <div class="seta"> < </div>
-                        <div class="seta">v</div>
-                        <div class="seta">></div>
+                        <div class="seta" id="37"> < </div>
+                        <div class="seta" id="40">v</div>
+                        <div class="seta" id="39">></div>
                     </div>
                 </div>
             </div>
             <div class="d8">
                 <div class="d3">
-                    <div class="a1">Num<br>Lock</div>
-                    <div class="a1">/</div>
-                    <div class="a1">*</div>
-                    <div class="a1">-</div>
+                    <div class="a1" id="144">Num<br>Lock</div>
+                    <div class="a1" id="111">/</div>
+                    <div class="a1" id="106">*</div>
+                    <div class="a1" id="109">-</div>
                 </div>
                 <div class="d3">
-                    <div class="a1">7</div>
-                    <div class="a1">8</div>
-                    <div class="a1">9</div>
-                    <div class="a1">+</div>
+                    <div class="a1" id="103">7</div>
+                    <div class="a1" id="104">8</div>
+                    <div class="a1" id="105">9</div>
+                    <div class="a1" id="107">+</div>
                 </div>
                 <div class="d3">
-                    <div class="a1">4</div>
-                    <div class="a1">5</div>
-                    <div class="a1">6</div>
-                    <div class="a1">.</div>
+                    <div class="a1" id="100">4</div>
+                    <div class="a1" id="101">5</div>
+                    <div class="a1" id="102">6</div>
+                    <div class="a1" id="194">.</div>
                 </div>
                 <div class="d3">
-                    <div class="a1">1</div>
-                    <div class="a1">2</div>
-                    <div class="a1">3</div>
+                    <div class="a1" id="97">1</div>
+                    <div class="a1" id="98">2</div>
+                    <div class="a1" id="99">3</div>
+                    <div class="Enter1" id="13"> Enter </div>
                     <div class="a1"></div>
                 </div>
                 <div class="d3">
-                    <div class="tecla0">0</div>
-                    <div class="a1">,</div>
-                    <div class="a1"></div>
+                    <div class="tecla0" id="96">0</div>
+                    <div class="a1" id="110">,</div>
+                    <div class="a1" id="13"></div>
                 </div>
             </div>
         </div>
 </div>
 </body>
-<script src="java.js"></script>
+<script>
+
+document.onkeydown = Pega_Tecla;
+document.onkeyup = TirarCor;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+    id = tecla;
+    document.getElementById(id).style.backgroundColor = "rgb(28, 208, 240)";
+}
+function TirarCor(e) 
+    {	
+        e = e || window.event;
+
+        tecla = e.keyCode;
+        console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+        id = tecla;
+        document.getElementById(id).style.backgroundColor = "White";
+    }
+</script>
 </html>
